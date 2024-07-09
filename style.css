@@ -1,0 +1,115 @@
+.attribution { font-size: 11px; text-align: center; margin-top: 5%;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body
+{
+    background-color: hsl(47, 88%, 63%);
+}
+
+p
+{
+    font-size: 16px;
+}
+
+#articleBg
+{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    position: relative;
+    width: 360px;
+    height: 460px;
+    border-radius: 20px;
+    margin-top: 8%;
+    border-color: black;
+    border-right: 9px solid black;
+    border-bottom: 9px solid black;
+    border-left: 1.5px solid black;;
+    border-top: 1.5px solid black;
+}
+
+#blogImg
+{
+    border-radius: 12px;
+    margin-top: 5%;
+}
+
+@font-face {
+    font-family: extraBold;
+    src: url("assets/fonts/static/Figtree-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: variableFont;
+    src: url("assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
+#learning
+{
+    background-color: hsl(47, 88%, 63%);
+    position: absolute;
+    margin-top: 65%;
+    margin-right: 65%;
+    float: left;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+}
+
+#learningText
+{
+    font-family: extraBold;
+    margin-top: 5%;
+}
+
+#dateText
+{
+    font-family: variableFont;
+    position: absolute;
+    margin-top: 78%;
+    margin-right: 42%;
+}
+
+#titleText
+{
+    font-family: extraBold;
+    position: absolute;
+    margin-top: 87%;
+    margin-right: 26%;
+}
+
+#bodyText
+{
+    font-family: variableFont;
+    color: hsl(0, 0%, 50%);
+    position: absolute;
+    margin-top: 96%;
+    font-size: 0.9em;
+    margin-left: 7%;
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 110%;
+    margin-right: 69%;
+}
+
+#avatarImg
+{
+    transform: scale(0.5);
+}
+
+#avatarText
+{
+    font-family: extraBold;
+    font-size: 0.8em;
+    white-space: nowrap;
+    margin-top: 30%;
+}
